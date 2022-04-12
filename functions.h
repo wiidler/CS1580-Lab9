@@ -39,17 +39,19 @@ using namespace std;
 /***********************CLASS DEFINITION***********************/
 class GuildMember{
     public:
-        // Getter and Setter functions
+        // Getter and Setter Functions
         string getName() const;
         int getAge() const;
         void setInfo(string name, int age, int level, string rank);
         void passTime();
         void print() const;
     private:
+        // Member Variables
         string m_name;
         string m_class;
         int m_level;
         int m_age;
+        // Getter and Setter Functions
         void age();
 };
 #endif
